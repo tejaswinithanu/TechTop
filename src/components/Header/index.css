@@ -1,0 +1,19 @@
+.nav-container {
+  background-image: linear-gradient(to right, #14133e, #133e1a);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15vw 20px;
+}
+
+.header-logo-image {
+  height: 100px;
+  width: 100px;
+  filter: contrast(0);
+}
+
+.webpage-name {
+  font-family: 'Copperplate';
+  font-size: 30px;
+  color: #c1b9b9;
+}

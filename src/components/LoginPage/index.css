@@ -1,0 +1,103 @@
+.login-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+}
+
+.outer-layer-bg {
+  background-color: #eedf92;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-layer-bg {
+  background-image: linear-gradient(to bottom, #f42c98, #fe4949);
+  width: 70%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70%;
+  width: 70%;
+  padding: 25px;
+  background-image: linear-gradient(to bottom, #eedf92, #eee5e5);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.label-text {
+  font-size: 10;
+  font-family: 'Times New Roman';
+  color: #5f5e5e;
+  margin-bottom: 10px;
+}
+
+.login-button {
+  background-image: linear-gradient(to bottom, #f42c98, #fe4949);
+  color: white;
+  font-size: 13px;
+  font-family: 'Times New Roman';
+  align-self: center;
+  padding: 12px 35px;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input-field {
+  background-color: #fffefe;
+  border: none;
+  color: #6b6a6a;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 15px;
+  padding: 10px;
+  margin-bottom: 25px;
+  outline: none;
+  border-radius: 4px;
+  height: 45px;
+}
+
+::placeholder {
+  color: #d4d0cf;
+}
+
+.logo-display-container {
+  background-image: linear-gradient(to bottom, #14133e, #133e1a);
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-image {
+  color: #c1b9b9;
+  height: 220px;
+  width: 215px;
+  filter: contrast(0);
+}
+
+.website-name {
+  font-family: 'Copperplate';
+  font-size: 70px;
+  color: #c1b9b9;
+  margin-bottom: 0;
+}
+
+.tag-line {
+  font-family: 'Lucida Handwriting';
+  font-size: 25px;
+  color: #cdb9b9;
+  margin-top: 0;
+}
