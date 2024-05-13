@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 import Header from '../Header'
 
 import './index.css'
@@ -37,9 +39,11 @@ const LandingPage = () => (
           found that a few simple readability transformations made code shorter
           and drastically reduced the time to understand it.
         </p>
-        <button className="explore-button" type="button">
-          Explore Tests
-        </button>
+        <Link className="button-link" to="/tests">
+          <button className="explore-button" type="button">
+            Explore Tests
+          </button>
+        </Link>
       </footer>
     </div>
   </>

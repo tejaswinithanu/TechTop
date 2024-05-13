@@ -1,0 +1,34 @@
+.tests-page-container {
+  min-height: 100vh;
+}
+
+.choosing-container {
+  padding: 13px 14vw;
+  display: flex;
+  align-items: center;
+}
+
+.options-container {
+  font-size: 15px;
+  background-color: #f4f0f0;
+  border-color: #c1c0c0;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 18vw;
+  outline: none;
+  border-radius: 3px;
+  color: #767373;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.test-cards-container {
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    #f42c98 0%,
+    #f42c98 20%,
+    #eedf92 20%,
+    #eedf92 100%
+  );
+}
