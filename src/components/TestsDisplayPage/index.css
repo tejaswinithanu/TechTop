@@ -3,9 +3,10 @@
 }
 
 .choosing-container {
-  padding: 13px 14vw;
+  padding: 15px 14vw;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .options-container {
@@ -26,7 +27,6 @@
   min-height: 75vh;
   padding: 13px 12vw;
   background-image: linear-gradient(to right, #f42c98, #fe4949);
-  width: 100vw;
 }
 
 .list-of-test-cards {
