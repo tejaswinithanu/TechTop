@@ -23,12 +23,16 @@
 }
 
 .test-cards-container {
-  height: 100%;
-  background-image: linear-gradient(
-    to bottom,
-    #f42c98 0%,
-    #f42c98 20%,
-    #eedf92 20%,
-    #eedf92 100%
-  );
+  min-height: 75vh;
+  padding: 13px 12vw;
+  background-image: linear-gradient(to right, #f42c98, #fe4949);
+  width: 100vw;
+}
+
+.list-of-test-cards {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }

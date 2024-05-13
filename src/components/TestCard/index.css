@@ -1,0 +1,43 @@
+.test-card-item {
+  list-style-type: none;
+  padding-left: 0;
+  background-color: white;
+  border-radius: 6px;
+  padding: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+}
+
+.language-details {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #eedf92;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.logo-language-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #eee5e5;
+  border-radius: 6px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.language-logo {
+  height: 25px;
+  width: 28px;
+  margin: 0;
+}
+
+.language-name {
+  font-family: 'Times New Roman';
+  font-size: 14px;
+  margin: 0;
+}

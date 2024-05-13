@@ -1,6 +1,7 @@
 import {Component} from 'react'
 
 import Header from '../Header'
+import TestCard from '../TestCard'
 import './index.css'
 
 const languages = [
@@ -40,7 +41,7 @@ const languageCards = [
       'https://res.cloudinary.com/dqqijdyjr/image/upload/v1715571969/c5djhuqztdocqyx6bagi.png',
     topics:
       'elements, tags, lists, forms, attributes, editors, comments, colors, tables, input, label etc...',
-    videoUrl: 'https://youtu.be/salY_Sm6mv4?si=JtaYnwMpDFkMpBjl',
+    videoUrl: 'https://www.youtube.com/embed/salY_Sm6mv4?rel=0',
   },
   {
     languageId: 'javascript',
@@ -49,7 +50,7 @@ const languageCards = [
       'https://res.cloudinary.com/dqqijdyjr/image/upload/v1715571969/c5djhuqztdocqyx6bagi.png',
     topics:
       'elements, tags, lists, forms, attributes, editors, comments, colors, tables, input, label etc...',
-    videoUrl: 'https://youtu.be/salY_Sm6mv4?si=JtaYnwMpDFkMpBjl',
+    videoUrl: 'https://www.youtube.com/embed/salY_Sm6mv4?rel=0',
   },
   {
     languageId: 'python',
@@ -58,7 +59,7 @@ const languageCards = [
       'https://res.cloudinary.com/dqqijdyjr/image/upload/v1715571969/c5djhuqztdocqyx6bagi.png',
     topics:
       'elements, tags, lists, forms, attributes, editors, comments, colors, tables, input, label etc...',
-    videoUrl: 'https://youtu.be/salY_Sm6mv4?si=JtaYnwMpDFkMpBjl',
+    videoUrl: 'https://www.youtube.com/embed/salY_Sm6mv4?rel=0',
   },
 ]
 
@@ -119,7 +120,14 @@ class TestsDisplayPage extends Component {
           </select>
         </div>
         <div className="test-cards-container">
-          <p>Hi</p>
+          <ul className="list-of-test-cards">
+            {languageCards.map(eachLanguage => (
+              <TestCard
+                key={eachLanguage.languageId}
+                languageDetails={eachLanguage}
+              />
+            ))}
+          </ul>
         </div>
       </div>
     )
