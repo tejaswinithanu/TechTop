@@ -17,10 +17,11 @@
 
 .text-bar {
   background-image: linear-gradient(to right, #f42c98, #fe4949);
-  padding: 6px 10px;
+  padding: 15px 10px;
   color: white;
   opacity: 0.5;
   overflow: hidden;
+  width:100vw;
 }
 
 .text-inside-bar {
